@@ -1,0 +1,18 @@
+[project]
+name = "zrh-curfew-predictor"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "delta-spark>=4.4.0",
+    "pyspark>=4.2.0",
+    "python-dotenv>=1.2.3",
+    "requests>=2.34.2",
+]
+
+[dependency-groups]
+dev = [
+    "jupyter>=1.1.1",
+    "ruff>=0.16.7",
+]
